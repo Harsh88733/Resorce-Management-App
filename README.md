@@ -5,7 +5,7 @@ An end-to-end Salesforce Lightning Application designed to streamline project tr
 ---
 
 ## 📊 Dashboard Preview
-![Resource Management Dashboard](./dashboard.png)
+![Resource Management Dashboard](./Dashboard.png)
 
 ---
 
