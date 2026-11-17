@@ -42,4 +42,4 @@ An end-to-end Salesforce Lightning Application designed to streamline project tr
 ## 👨‍💻 Author
 **Harsh Kumar**  
 Salesforce Administrator & Developer | B.Tech CSE (AI & ML)  
-* **GitHub:** [Harsh0733](https://github.com)
+* **GitHub:** [Harsh88733](https://github.com/Harsh88733)
