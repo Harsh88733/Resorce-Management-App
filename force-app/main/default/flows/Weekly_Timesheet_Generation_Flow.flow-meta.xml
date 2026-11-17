@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <environments>Default</environments>
+    <formulas>
+        <name>date</name>
+        <dataType>Date</dataType>
+        <expression>Today()</expression>
+    </formulas>
+    <formulas>
+        <name>TimesheetNameFormula</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Full_Name__c} &amp; &quot; - &quot; &amp; TEXT(YEAR(TODAY())) &amp; &quot;-&quot; &amp; 
+IF(MONTH(TODAY())&lt;10, &quot;0&quot;, &quot;&quot;) &amp; TEXT(MONTH(TODAY())) &amp; &quot;-&quot; &amp; 
+IF(DAY(TODAY())&lt;10, &quot;0&quot;, &quot;&quot;) &amp; TEXT(DAY(TODAY()))</expression>
+    </formulas>
+    <interviewLabel>Weekly Timesheet Generation Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Weekly Timesheet Generation Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Timesheet_Records</name>
+        <label>Create Timesheet Records</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputAssignments>
+            <field>Manager_s_Email__c</field>
+            <value>
+                <elementReference>$Record.Manager__r.Email__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Resource__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Timesheet_Name__c</field>
+            <value>
+                <elementReference>TimesheetNameFormula</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Week_Start_Date__c</field>
+            <value>
+                <elementReference>date</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Timesheet__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Create_Timesheet_Records</targetReference>
+        </connector>
+        <object>Resource__c</object>
+        <schedule>
+            <frequency>Weekly</frequency>
+            <startDate>2026-09-18</startDate>
+            <startTime>00:45:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Year__c</fullName>
+    <label>Year</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2020-2025</fullName>
+                <default>false</default>
+                <label>2020-2025</label>
+            </value>
+            <value>
+                <fullName>2026-2030</fullName>
+                <default>false</default>
+                <label>2026-2030</label>
+            </value>
+            <value>
+                <fullName>2031-2035</fullName>
+                <default>false</default>
+                <label>2031-2035</label>
+            </value>
+            <value>
+                <fullName>2036-2040</fullName>
+                <default>false</default>
+                <label>2036-2040</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

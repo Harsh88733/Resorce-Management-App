@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cybersecurity_UIUX_Location_Check</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  OR(
+    ISPICKVAL(Technology__c, &quot;Cybersecurity&quot;),
+    ISPICKVAL(Technology__c, &quot;UI/UX&quot;)
+  ),
+  NOT(ISPICKVAL(Work_Location__c, &quot;Office&quot;))
+)</errorConditionFormula>
+    <errorMessage>Work Location must be Office for Cybersecurity or UI/UX Technology.</errorMessage>
+</ValidationRule>

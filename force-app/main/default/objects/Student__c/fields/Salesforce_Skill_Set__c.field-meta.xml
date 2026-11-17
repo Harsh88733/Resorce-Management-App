@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Skill_Set__c</fullName>
+    <label>Salesforce Skill Set</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Salesforce_Roles__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Admin Concepts</fullName>
+                <default>false</default>
+                <label>Admin Concepts</label>
+            </value>
+            <value>
+                <fullName>Data Security</fullName>
+                <default>false</default>
+                <label>Data Security</label>
+            </value>
+            <value>
+                <fullName>Reports And Dashboard</fullName>
+                <default>false</default>
+                <label>Reports And Dashboard</label>
+            </value>
+            <value>
+                <fullName>Flow</fullName>
+                <default>false</default>
+                <label>Flow</label>
+            </value>
+            <value>
+                <fullName>Apex</fullName>
+                <default>false</default>
+                <label>Apex</label>
+            </value>
+            <value>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+                <label>Trigger</label>
+            </value>
+            <value>
+                <fullName>Test Class</fullName>
+                <default>false</default>
+                <label>Test Class</label>
+            </value>
+            <value>
+                <fullName>Async Apex</fullName>
+                <default>false</default>
+                <label>Async Apex</label>
+            </value>
+            <value>
+                <fullName>Integration</fullName>
+                <default>false</default>
+                <label>Integration</label>
+            </value>
+            <value>
+                <fullName>Visualforce</fullName>
+                <default>false</default>
+                <label>Visualforce</label>
+            </value>
+            <value>
+                <fullName>Lightning Web Component</fullName>
+                <default>false</default>
+                <label>Lightning Web Component</label>
+            </value>
+            <value>
+                <fullName>Sales Cloud</fullName>
+                <default>false</default>
+                <label>Sales Cloud</label>
+            </value>
+            <value>
+                <fullName>Service Cloud</fullName>
+                <default>false</default>
+                <label>Service Cloud</label>
+            </value>
+            <value>
+                <fullName>Experience Cloud</fullName>
+                <default>false</default>
+                <label>Experience Cloud</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Deployments</fullName>
+                <default>false</default>
+                <label>Deployments</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Admin</controllingFieldValue>
+            <controllingFieldValue>Quality Analyst</controllingFieldValue>
+            <controllingFieldValue>Business Analyst</controllingFieldValue>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Admin Concepts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin</controllingFieldValue>
+            <controllingFieldValue>Quality Analyst</controllingFieldValue>
+            <controllingFieldValue>Business Analyst</controllingFieldValue>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Data Security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin</controllingFieldValue>
+            <controllingFieldValue>Quality Analyst</controllingFieldValue>
+            <controllingFieldValue>Business Analyst</controllingFieldValue>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Reports And Dashboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admin</controllingFieldValue>
+            <controllingFieldValue>Quality Analyst</controllingFieldValue>
+            <controllingFieldValue>Business Analyst</controllingFieldValue>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Flow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Developer</controllingFieldValue>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Apex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Developer</controllingFieldValue>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Trigger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Developer</controllingFieldValue>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Test Class</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Developer</controllingFieldValue>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Async Apex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Developer</controllingFieldValue>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Developer</controllingFieldValue>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Visualforce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Developer</controllingFieldValue>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Lightning Web Component</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Sales Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Service Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Experience Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Marketing Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Architect</controllingFieldValue>
+            <controllingFieldValue>Project Manager</controllingFieldValue>
+            <valueName>Deployments</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

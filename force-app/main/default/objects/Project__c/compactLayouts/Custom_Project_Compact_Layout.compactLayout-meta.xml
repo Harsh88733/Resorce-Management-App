@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Project_Compact_Layout</fullName>
+    <fields>Billing_Per_Hour__c</fields>
+    <fields>Project_Amount__c</fields>
+    <fields>Project_Manager__c</fields>
+    <fields>Start_Date__c</fields>
+    <fields>Total_Cost__c</fields>
+    <fields>Total_Profit_Loss__c</fields>
+    <fields>Total_Billable_Hours__c</fields>
+    <label>Custom Project Compact Layout</label>
+</CompactLayout>

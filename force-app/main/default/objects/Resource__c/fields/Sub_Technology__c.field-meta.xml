@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Technology__c</fullName>
+    <label>Sub Technology</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Technology__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apex</fullName>
+                <default>false</default>
+                <label>Apex</label>
+            </value>
+            <value>
+                <fullName>Flow</fullName>
+                <default>false</default>
+                <label>Flow</label>
+            </value>
+            <value>
+                <fullName>LWC</fullName>
+                <default>false</default>
+                <label>LWC</label>
+            </value>
+            <value>
+                <fullName>Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Sales Cloud</fullName>
+                <default>false</default>
+                <label>Sales Cloud</label>
+            </value>
+            <value>
+                <fullName>Service Cloud</fullName>
+                <default>false</default>
+                <label>Service Cloud</label>
+            </value>
+            <value>
+                <fullName>Commerce Cloud</fullName>
+                <default>false</default>
+                <label>Commerce Cloud</label>
+            </value>
+            <value>
+                <fullName>Experience Cloud</fullName>
+                <default>false</default>
+                <label>Experience Cloud</label>
+            </value>
+            <value>
+                <fullName>OmniStudio</fullName>
+                <default>false</default>
+                <label>OmniStudio</label>
+            </value>
+            <value>
+                <fullName>Industries CPQ</fullName>
+                <default>false</default>
+                <label>Industries CPQ</label>
+            </value>
+            <value>
+                <fullName>AI</fullName>
+                <default>false</default>
+                <label>AI</label>
+            </value>
+            <value>
+                <fullName>Machine Learning</fullName>
+                <default>false</default>
+                <label>Machine Learning</label>
+            </value>
+            <value>
+                <fullName>Deep Learning</fullName>
+                <default>false</default>
+                <label>Deep Learning</label>
+            </value>
+            <value>
+                <fullName>SOAP Integration</fullName>
+                <default>false</default>
+                <label>SOAP Integration</label>
+            </value>
+            <value>
+                <fullName>REST Integration</fullName>
+                <default>false</default>
+                <label>REST Integration</label>
+            </value>
+            <value>
+                <fullName>Black Hat</fullName>
+                <default>false</default>
+                <label>Black Hat</label>
+            </value>
+            <value>
+                <fullName>White Hat</fullName>
+                <default>false</default>
+                <label>White Hat</label>
+            </value>
+            <value>
+                <fullName>User Interface</fullName>
+                <default>false</default>
+                <label>User Interface</label>
+            </value>
+            <value>
+                <fullName>User Experience</fullName>
+                <default>false</default>
+                <label>User Experience</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>• Salesforce Platform</controllingFieldValue>
+            <valueName>Apex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Salesforce Platform</controllingFieldValue>
+            <valueName>Flow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Salesforce Platform</controllingFieldValue>
+            <valueName>LWC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Salesforce Clouds</controllingFieldValue>
+            <valueName>Marketing Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Salesforce Clouds</controllingFieldValue>
+            <valueName>Sales Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Salesforce Clouds</controllingFieldValue>
+            <valueName>Service Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Salesforce Clouds</controllingFieldValue>
+            <valueName>Commerce Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Salesforce Clouds</controllingFieldValue>
+            <valueName>Experience Cloud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Industry Cloud</controllingFieldValue>
+            <valueName>OmniStudio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Industry Cloud</controllingFieldValue>
+            <valueName>Industries CPQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Data + AI</controllingFieldValue>
+            <valueName>AI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Data + AI</controllingFieldValue>
+            <valueName>Machine Learning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Data + AI</controllingFieldValue>
+            <valueName>Deep Learning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Mulesoft</controllingFieldValue>
+            <valueName>SOAP Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Mulesoft</controllingFieldValue>
+            <valueName>REST Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Cybersecurity</controllingFieldValue>
+            <valueName>Black Hat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• Cybersecurity</controllingFieldValue>
+            <valueName>White Hat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• UI/UX</controllingFieldValue>
+            <valueName>User Interface</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>• UI/UX</controllingFieldValue>
+            <valueName>User Experience</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_or_Email_both_should_not_be_blank</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND((ISNEW()), OR(ISBLANK(Phone__c), ISBLANK(Email__c)))</errorConditionFormula>
+    <errorMessage>Both Phone and Email must be provided when creating a new record.</errorMessage>
+</ValidationRule>

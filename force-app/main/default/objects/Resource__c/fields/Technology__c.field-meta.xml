@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology__c</fullName>
+    <label>Technology</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>• Salesforce Platform</fullName>
+                <default>false</default>
+                <label>• Salesforce Platform</label>
+            </value>
+            <value>
+                <fullName>• Salesforce Clouds</fullName>
+                <default>false</default>
+                <label>• Salesforce Clouds</label>
+            </value>
+            <value>
+                <fullName>• Industry Cloud</fullName>
+                <default>false</default>
+                <label>• Industry Cloud</label>
+            </value>
+            <value>
+                <fullName>• Data + AI</fullName>
+                <default>false</default>
+                <label>• Data + AI</label>
+            </value>
+            <value>
+                <fullName>• Mulesoft</fullName>
+                <default>false</default>
+                <label>• Mulesoft</label>
+            </value>
+            <value>
+                <fullName>• Cybersecurity</fullName>
+                <default>false</default>
+                <label>• Cybersecurity</label>
+            </value>
+            <value>
+                <fullName>• UI/UX</fullName>
+                <default>false</default>
+                <label>• UI/UX</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
